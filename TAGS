@@ -1,0 +1,131 @@
+
+./Setup.hs,15
+main main1,2
+
+./dist/dist-sandbox-cea76b90/build/autogen/Paths_dns_parsing.hs,972
+module Paths_dns_parsing Paths_dns_parsing0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version15,16
+version version16,17
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir17,18
+bindir, libdir, datadir, libexecdir,libexecdir17,18
+bindir, libdir, datadir,datadir17,18
+bindir, libdir,libdir17,18
+bindir,bindir17,18
+bindir bindir19,20
+libdir libdir20,21
+datadir datadir21,22
+libexecdir libexecdir22,23
+sysconfdir sysconfdir23,24
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir25,26
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir25,26
+getBinDir, getLibDir, getDataDir,getDataDir25,26
+getBinDir, getLibDir,getLibDir25,26
+getBinDir,getBinDir25,26
+getBinDir getBinDir26,27
+getLibDir getLibDir27,28
+getDataDir getDataDir28,29
+getLibexecDir getLibexecDir29,30
+getSysconfDir getSysconfDir30,31
+getDataFileName getDataFileName32,33
+getDataFileName getDataFileName33,34
+
+./dist/build/autogen/Paths_dns_parsing.hs,972
+module Paths_dns_parsing Paths_dns_parsing0,1
+catchIO catchIO11,12
+catchIO catchIO12,13
+version version15,16
+version version16,17
+bindir, libdir, datadir, libexecdir, sysconfdir sysconfdir17,18
+bindir, libdir, datadir, libexecdir,libexecdir17,18
+bindir, libdir, datadir,datadir17,18
+bindir, libdir,libdir17,18
+bindir,bindir17,18
+bindir bindir19,20
+libdir libdir20,21
+datadir datadir21,22
+libexecdir libexecdir22,23
+sysconfdir sysconfdir23,24
+getBinDir, getLibDir, getDataDir, getLibexecDir, getSysconfDir getSysconfDir25,26
+getBinDir, getLibDir, getDataDir, getLibexecDir,getLibexecDir25,26
+getBinDir, getLibDir, getDataDir,getDataDir25,26
+getBinDir, getLibDir,getLibDir25,26
+getBinDir,getBinDir25,26
+getBinDir getBinDir26,27
+getLibDir getLibDir27,28
+getDataDir getDataDir28,29
+getLibexecDir getLibexecDir29,30
+getSysconfDir getSysconfDir30,31
+getDataFileName getDataFileName32,33
+getDataFileName getDataFileName33,34
+
+./tests/Test.hs,182
+module Test Test0,1
+tests tests13,14
+tests tests14,15
+qProp qProp16,17
+qProp qProp17,18
+generate generate19,20
+generate generate20,21
+main main23,24
+main main24,25
+
+./tests/Data/Dns/Gen.hs,63
+module Data.Dns.Gen Data.Dns.Gen1,2
+instance instance10,11
+
+./src/Data/Dns/Parser.hs,44
+module Data.Dns.Parser Data.Dns.Parser0,1
+
+./src/Data/Dns/Types.hs,2224
+module Data.Dns.Types Data.Dns.Types0,1
+newtype DomainName DomainName20,21
+newtype DomainName = DomainName DomainName20,21
+newtype DomainName = DomainName {unDN unDN20,21
+newtype HinfoCPU HinfoCPU21,22
+newtype HinfoCPU = HinfoCPU HinfoCPU21,22
+newtype HinfoCPU = HinfoCPU {unHinfoCPU unHinfoCPU21,22
+newtype HinfoOS HinfoOS22,23
+newtype HinfoOS = HinfoOS HinfoOS22,23
+newtype HinfoOS = HinfoOS {unHinfoOS unHinfoOS22,23
+newtype SOASerial SOASerial23,24
+newtype SOASerial = SOASerial SOASerial23,24
+newtype SOASerial = SOASerial {unSerial unSerial23,24
+newtype SOARefresh SOARefresh24,25
+newtype SOARefresh = SOARefresh SOARefresh24,25
+newtype SOARefresh = SOARefresh {unRefresh unRefresh24,25
+newtype SOAExpire SOAExpire25,26
+newtype SOAExpire = SOAExpire SOAExpire25,26
+newtype SOAExpire = SOAExpire {unExpire unExpire25,26
+newtype SOARetry SOARetry26,27
+newtype SOARetry = SOARetry SOARetry26,27
+newtype SOARetry = SOARetry {unRetry unRetry26,27
+newtype SOAMinimum SOAMinimum27,28
+newtype SOAMinimum = SOAMinimum SOAMinimum27,28
+newtype SOAMinimum = SOAMinimum {unMinimum unMinimum27,28
+newtype SOAMName SOAMName28,29
+newtype SOAMName = SOAMName SOAMName28,29
+newtype SOARName SOARName29,30
+newtype SOARName = SOARName SOARName29,30
+data DnsType DnsType31,32
+data DnsType = ARecord ARecord31,32
+             | NSRecord NSRecord32,33
+             | CNAMERecord CNAMERecord33,34
+             | SOARecord SOARecord34,35
+             | PTRRecord PTRRecord35,36
+             | HINFORecord HINFORecord36,37
+             | MXRecord MXRecord37,38
+             | TXTRecord TXTRecord38,39
+             | UnknownRecord UnknownRecord39,40
+data DnsClass DnsClass41,42
+data DnsClass = INClassINClass41,42
+              | UnknownClass UnknownClass42,43
+data DnsRecord DnsRecord44,45
+data DnsRecord = DnsRecord DnsRecord44,45
+data DnsRecord = DnsRecord { dnsName dnsName44,45
+                           , dnsType dnsType45,46
+                           , dnsClass dnsClass46,47
+                           , dnsTTL dnsTTL47,48
+                           , dnsRdLength dnsRdLength48,49
+                           , dnsRdData dnsRdData49,50
