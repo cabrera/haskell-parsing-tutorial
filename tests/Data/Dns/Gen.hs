@@ -4,7 +4,7 @@ import Control.Applicative
 import Data.ByteString (ByteString)
 import Data.ByteString.Char8 (pack)
 import Data.Char (chr)
-  
+
 import Data.Dns.Types
 import Test.Tasty.QuickCheck (listOf1, choose, arbitrary, Arbitrary, elements, oneof)
 
@@ -36,7 +36,7 @@ instance Arbitrary SOAMinimum where
 instance Arbitrary DnsClass where
   arbitrary = elements [INClass, UnknownClass]
 
--- TODO(cabrera): *actually* make this look like a domain name
+-- TODO(allele): *actually* make this look like a domain name
 instance Arbitrary DomainName where
   arbitrary = DomainName <$> arbitrary
 

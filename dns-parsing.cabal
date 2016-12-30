@@ -5,8 +5,8 @@ name:                dns-parsing
 version:             0.1.0.0
 license:             GPL-3
 license-file:        LICENSE
-author:              Alejandro Cabrera
-maintainer:          cpp.cabrera@gmail.com
+author:              Allele Dev
+maintainer:          allele.dev@gmail.com
 category:            Data
 build-type:          Simple
 cabal-version:       >=1.18
